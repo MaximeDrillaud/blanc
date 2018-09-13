@@ -1,0 +1,333 @@
+body {
+
+background-image:url(http://www.maximumwall.com/wp-content/uploads/2016/12/fond-ecran-wallpaper-image-fonds-ecran-abstrait-noir-et-blanc-18.jpg); 
+
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-style: Times New Roman ;Georgia
+}
+
+.spiralContainer {
+  margin-left: 470px;
+  border-radius:50%;
+  width:600px;
+  height:600px;
+
+
+  animation: spin 0.001s linear 0s infinite reverse;
+  animation-play-state: paused;
+}
+.spiral {
+
+  
+  width:600px;
+  height:600px;
+  border-radius: 50%;
+  background-image: url(https://www.freeiconspng.com/uploads/color-icon-png-13.png);
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  float: left;
+  
+  
+  animation: spin 6s linear 0s infinite normal;
+}
+.spiralContainer:hover {
+
+  animation-play-state: running;
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#body {
+    text-align: center;
+}
+
+
+#blue {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+             margin-left:5px;
+             margin-right: 9px;
+    margin-top: 10px;
+    float: left;
+                animation-name: examplea;
+    animation-duration: 20s;
+
+
+}
+#oui {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+             margin-left:5px;
+    margin-top: 10px;
+    margin-right: 9px;
+    float: left;
+                    animation-name: exampleb;
+    animation-duration: 20s;
+
+
+
+}
+#non {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+             margin-left:5px;
+    margin-top: 10px;
+    margin-right: 8px;
+    float: left;
+                    animation-name: examplec;
+    animation-duration: 20s;
+
+}
+#nono {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 9px;
+    float: left;
+                    animation-name: exampled;
+    animation-duration: 20s;
+
+}
+#po {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+             margin-left:5px;
+    margin-top: 10px;
+    margin-right: 9px;
+    float: left;
+                    animation-name: examplee;
+    animation-duration: 20s;
+}
+#pi {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+            margin-left:5px;
+    margin-top: 10px;
+    margin-right: 9px;
+    float: left;
+                    animation-name: examplef;
+    animation-duration: 20s;
+}
+#pu {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+           margin-left:5px;
+    margin-top: 10px;
+    margin-right: 9px;
+    float: left;
+                    animation-name: exampleg;
+    animation-duration: 20s;
+}
+
+
+
+
+
+
+#lo {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: top;
+                    animation-name: examplea;
+    animation-duration: 20s;
+}
+#la {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+                    animation-name: exampleb;
+    animation-duration: 20s;
+}
+#mo {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: top;
+                    animation-name: examplec;
+    animation-duration: 20s;
+}
+#ma {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+          margin-left:5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: top;
+                    animation-name: exampled;
+    animation-duration: 20s;
+}
+
+#dr {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+                    animation-name: examplee;
+    animation-duration: 20s;
+}
+
+#mi {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-left:5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: top;
+                    animation-name: examplef;
+    animation-duration: 20s;
+}
+#nu {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+         margin-left:5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: top;
+                    animation-name: exampleg;
+    animation-duration: 20s;
+}
+#nas {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+      margin-left:5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: left;
+                    animation-name: examplea;
+    animation-duration: 20s;
+}
+#fr {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+                    animation-name: exampleb;
+    animation-duration: 20s;
+}
+#gr {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+                    animation-name: example;
+    animation-duration: 20s;
+}
+#br {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+              margin-left:5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+}
+
+@keyframes examplea {
+    0%   {background-color: green;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: red;}
+}
+@keyframes exampleb {
+    0%   {background-color: yellow;}
+    25%  {background-color: green;}
+    50%  {background-color: blue;}
+    100% {background-color: red;}
+}
+@keyframes examplec {
+    0%   {background-color: red;}
+    25%  {background-color: blue;}
+    50%  {background-color: yellow;}
+    100% {background-color: green;}
+}
+@keyframes exampled {
+    0%   {background-color: blue;}
+    25%  {background-color: yellow;}
+    50%  {background-color: red;}
+    100% {background-color: green;}
+}
+@keyframes examplee {
+    0%   {background-color: blue;}
+    25%  {background-color: red;}
+    50%  {background-color: yellow;}
+    100% {background-color: green;}
+}
+@keyframes examplef {
+    0%   {background-color: green;}
+    25%  {background-color: blue;}
+    50%  {background-color: yellow;}
+    100% {background-color: red;}
+}
+@keyframes exampleg {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: green;}
+    100% {background-color: blue;}
+}
+
